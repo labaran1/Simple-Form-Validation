@@ -46,6 +46,7 @@ if(loginName.value== ''){
     // loginError.innerHTML= 'please fill out this';
 loginName.setAttribute('placeholder', "Name can't be empty");
 loginName.style.border='2px solid red';
+// loginName.focus();
 setTimeout(()=>{loginName.style.border=''}, 2000);
 
 
